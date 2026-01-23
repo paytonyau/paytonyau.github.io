@@ -127,7 +127,7 @@
             display: inline-block;
             padding: 0.2rem 0.5rem;
             border-radius: 4px;
-            font-size: 0.7rem;
+            font-size: 0.75rem; /* Increased slightly */
             font-weight: 700;
             margin-right: 0.3rem;
             margin-bottom: 0.3rem;
@@ -140,7 +140,7 @@
             background-size: 20px 20px;
         }
         .stock-ticker {
-            animation: scroll-left 50s linear infinite;
+            animation: scroll-left 60s linear infinite;
         }
         @keyframes scroll-left {
             0% { transform: translateX(100%); }
@@ -215,6 +215,7 @@
                 </span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <!-- Focus 1 -->
                 <div class="border-l-2 border-emerald-100 pl-4">
                     <div class="flex items-center gap-2 mb-2">
                         <i class="fab fa-r-project text-emerald-600 text-base md:text-lg"></i>
@@ -224,6 +225,7 @@
                         Refining <strong>OptSurvCutR</strong> for precision biomarker discovery in clinical datasets.
                     </p>
                 </div>
+                <!-- Focus 2 -->
                 <div class="border-l-2 border-emerald-100 pl-4">
                     <div class="flex items-center gap-2 mb-2">
                         <i class="fas fa-user-md text-emerald-600 text-base md:text-lg"></i>
@@ -238,7 +240,7 @@
 
         <!-- ROW 2 -->
 
-        <!-- 3. QUANTITATIVE (1x1) - UNIFIED CONSISTENT STYLE -->
+        <!-- 3. QUANTITATIVE (1x1) -->
         <section class="bento-card col-span-1 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
             <div class="flex flex-col h-full justify-between">
                 <div>
@@ -253,10 +255,10 @@
                     
                     <a href="https://paytonyau.github.io/OptSurvCutR/" target="_blank" rel="noopener noreferrer" class="block bg-white rounded-lg p-3 border border-slate-200 mb-3 font-mono text-[10px] md:text-xs hover:border-blue-400 hover:shadow-md transition-all">
                         <div class="flex items-center gap-2 mb-1">
-                            <i class="fab fa-r-project text-blue-600"></i>
-                            <span class="font-bold text-slate-700">OptSurvCutR</span>
+                            <i class="fab fa-r-project text-blue-600 text-base"></i>
+                            <span class="font-bold text-slate-700 text-sm md:text-base">OptSurvCutR</span>
                         </div>
-                        <p class="text-slate-400 italic text-[9px]">Validated biomarker optimisation.</p>
+                        <p class="text-slate-400 italic text-xs md:text-sm">Validated biomarker optimisation.</p>
                     </a>
                 </div>
 
@@ -295,7 +297,7 @@
 
                 <div class="flex flex-wrap gap-1 mt-auto pt-2">
                     <span class="tag">Biobanking</span><span class="tag">Microbiome</span>
-                    <span class="tag">qPCR</span><span class="tag">Extraction</span><span class="tag">Library Prep</span>
+                    <span class="tag">qPCR</span><span class="tag">Library Prep</span>
                 </div>
             </div>
         </section>
@@ -309,7 +311,7 @@
             </div>
             <div class="flex-grow">
                 <h3 class="text-lg md:text-xl font-bold mb-1 md:mb-2 text-slate-900 group-hover:text-amber-600 transition-colors">Genomic Surveillance</h3>
-                <p class="text-[11px] md:text-sm text-slate-600 leading-relaxed font-medium">
+                <p class="text-xs md:text-base text-slate-600 leading-relaxed font-medium">
                     Architecture for pathogen tracking. Bridging environmental microbiome data with clinical biosecurity needs.
                 </p>
             </div>
@@ -323,7 +325,7 @@
                     <h3 class="font-bold text-[9px] md:text-xs text-slate-400 uppercase tracking-widest">Resource Platform</h3>
                 </div>
                 <h3 class="font-bold text-slate-800 text-base md:text-lg leading-tight mb-1">UK Crop Microbiome CryoBank</h3>
-                <p class="text-[11px] md:text-sm text-slate-500 font-medium">Previously managed national platforms for UKRI/BBSRC phytobiomes research.</p>
+                <p class="text-xs md:text-base text-slate-500 font-medium">Previously managed national platforms for UKRI/BBSRC phytobiomes research.</p>
             </div>
             <div class="hidden sm:block pl-4">
                 <i class="fas fa-arrow-right text-slate-300 group-hover:text-teal-600 transition-colors"></i>
@@ -339,14 +341,14 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="text-sm text-slate-600 border-l-4 border-slate-100 pl-4 transition-colors group-hover:border-indigo-100">
-                    <strong class="block text-slate-900 uppercase tracking-wide text-[10px] md:text-xs mb-1">Lecturer</strong>
-                    <span class="block font-bold text-slate-700 text-xs md:text-sm">LSST / Nottingham Trent University</span>
-                    <span class="text-[10px] md:text-xs mt-1 block leading-relaxed">Modules: Global Health, Molecular Biology, and Research Methods. Mentoring (under)graduate research projects.</span>
+                    <strong class="block text-slate-900 uppercase tracking-wide text-xs md:text-sm mb-1">Lecturer</strong>
+                    <span class="block font-bold text-slate-700 text-sm md:text-base">LSST / Nottingham Trent University</span>
+                    <span class="text-xs md:text-sm mt-1 block leading-relaxed">Modules: Global Health, Molecular Biology, and Research Methods. Mentoring (under)graduate research projects.</span>
                 </div>
                 <div class="text-sm text-slate-600 border-l-4 border-slate-100 pl-4 transition-colors group-hover:border-indigo-100">
-                    <strong class="block text-slate-900 uppercase tracking-wide text-[10px] md:text-xs mb-1">Instructor</strong>
-                    <span class="block font-bold text-slate-700 text-xs md:text-sm">University of the People</span>
-                    <span class="text-[10px] md:text-xs mt-1 block leading-relaxed">Delivering online curriculum in Infectious Diseases and Biostatistics to diverse global cohorts.</span>
+                    <strong class="block text-slate-900 uppercase tracking-wide text-xs md:text-sm mb-1">Instructor</strong>
+                    <span class="block font-bold text-slate-700 text-sm md:text-base">University of the People</span>
+                    <span class="text-xs md:text-sm mt-1 block leading-relaxed">Delivering online curriculum in Infectious Diseases and Biostatistics to diverse global cohorts.</span>
                 </div>
             </div>
         </section>
@@ -358,16 +360,16 @@
             </div>
             <div class="flex flex-row justify-around items-center text-center">
                 <div class="flex-1">
-                    <div class="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter leading-tight">PhD</div>
+                    <div class="text-5xl md:text-7xl font-black text-slate-900 tracking-tighter leading-tight">PhD</div>
                     <p class="text-[10px] md:text-xs uppercase font-bold text-slate-500">Biological Nature of Diseases</p>
                 </div>
-                <div class="h-16 w-px bg-slate-200 mx-6"></div>
+                <div class="h-24 w-px bg-slate-200 mx-8"></div>
                 <div class="flex-1 text-left">
-                    <div class="text-sm md:text-lg font-bold text-blue-600 uppercase tracking-tight mb-2">MBA Candidate</div>
-                    <div class="w-full h-px bg-slate-200/60 mb-2"></div>
-                    <div class="text-xs md:text-sm font-bold text-slate-800 mb-0.5">BSc Computer Science</div>
-                    <div class="w-full h-px bg-slate-100/50 mb-1"></div>
-                    <div class="text-xs md:text-sm text-slate-500 font-semibold italic">MSc Biomedical Science (Dist.)</div>
+                    <div class="text-lg md:text-2xl font-bold text-blue-600 uppercase tracking-tight mb-3">MBA Candidate</div>
+                    <div class="w-full h-0.5 bg-slate-200/60 mb-3"></div>
+                    <div class="text-sm md:text-lg font-bold text-slate-800 mb-1">BSc Computer Science</div>
+                    <div class="w-full h-px bg-slate-100/50 mb-1.5"></div>
+                    <div class="text-sm md:text-lg text-slate-500 font-semibold italic">MSc Biomedical Science (Dist.)</div>
                 </div>
             </div>
         </section>
@@ -384,31 +386,31 @@
             </div>
         </a>
 
-        <!-- 10. LIBRARY (1x1) -->
+        <!-- 10. LIBRARY (1x1) - BIGGER TEXT & IMAGE -->
         <a href="https://www.goodreads.com/user/show/198092012-payton" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 p-6 bg-white group hover:border-purple-400 shadow-sm">
             <div class="flex justify-between items-center mb-4">
                 <h3 class="font-bold text-xs md:text-sm text-slate-800 uppercase tracking-wide">Library</h3>
                 <i class="fas fa-book-open text-purple-600 text-sm"></i>
             </div>
             <div class="flex flex-col md:flex-row items-center gap-4 h-full">
-                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg" alt="Book Cover" class="w-16 h-24 md:w-20 md:h-28 object-cover book-cover rounded-sm shadow-md flex-shrink-0 border border-slate-100">
+                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg" alt="Book Cover" class="w-20 h-28 md:w-24 md:h-36 object-cover book-cover rounded-sm shadow-md flex-shrink-0 border border-slate-100">
                 <div class="flex flex-col text-center md:text-left">
-                    <p class="text-[9px] uppercase font-bold text-purple-400 mb-0.5 tracking-wider">Current Read</p>
-                    <p class="text-xs md:text-sm font-bold text-slate-900 leading-tight mb-1">Psychology of Money</p>
-                    <p class="text-[10px] text-slate-500 font-semibold">Morgan Housel</p>
+                    <p class="text-[10px] md:text-xs uppercase font-bold text-purple-400 mb-0.5 tracking-wider">Current Read</p>
+                    <p class="text-sm md:text-xl font-bold text-slate-900 leading-tight mb-1">Psychology of Money</p>
+                    <p class="text-xs md:text-sm text-slate-500 font-semibold">Morgan Housel</p>
                 </div>
             </div>
         </a>
 
-        <!-- 11. RISK THINKING (1x1) -->
+        <!-- 11. RISK THINKING (1x1) - BIGGER STOCK BOX -->
         <section class="bento-card col-span-1 p-6 bg-slate-50/20 border border-slate-200 group hover:border-slate-300 shadow-sm">
             <h3 class="font-bold text-xs md:text-sm text-slate-800 uppercase tracking-wide flex items-center gap-2 mb-3">
                 <i class="fas fa-chart-pie text-slate-500 group-hover:text-blue-500 transition-colors"></i> Risk Thinking
             </h3>
-            <p class="text-[10px] md:text-xs text-slate-600 leading-relaxed mb-4 font-medium">
-                Applying Systems Thinking to biological datasets and investment portfolios. Managing risk through diversification across <strong>AIM Incubators</strong> and <strong>UK Income Titans</strong>.
+            <p class="text-xs md:text-sm text-slate-600 leading-relaxed mb-6 font-medium">
+                Systems Thinking applied to biology and finance. Managing risk via <strong>AIM Incubators</strong> and <strong>UK Income Titans</strong>.
             </p>
-            <div class="mt-auto bg-white rounded p-2 border border-slate-200 overflow-hidden relative h-8 md:h-10 flex items-center">
+            <div class="mt-auto bg-white rounded p-2 border border-slate-200 overflow-hidden relative h-10 md:h-14 flex items-center">
                 <div class="stock-ticker whitespace-nowrap flex gap-4" id="stock-ticker-content"></div>
             </div>
         </section>
@@ -426,7 +428,7 @@
 
     </main>
     
-    <footer class="text-center py-12 text-slate-400 text-[10px] md:text-xs uppercase tracking-widest font-bold">
+    <footer class="text-center py-12 text-slate-400 text-[11px] md:text-xs uppercase tracking-widest font-bold">
         &copy; 2026 Dr Payton Tung On Yau. Molecular • Quantitative • Strategy.
     </footer>
 
@@ -456,7 +458,7 @@
                         let colorClass = stock.up ? "text-green-600" : "text-red-500";
                         let icon = stock.up ? "▲" : "▼";
                         html += `
-                            <div class="flex items-center gap-1.5 font-mono text-[10px] font-bold text-slate-700">
+                            <div class="flex items-center gap-1.5 font-mono text-xs md:text-sm font-bold text-slate-700">
                                 <span>${stock.ticker}</span>
                                 <span class="${colorClass}">${icon} ${stock.change}</span>
                             </div>
