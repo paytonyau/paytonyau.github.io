@@ -140,7 +140,7 @@
             background-size: 20px 20px;
         }
         .stock-ticker {
-            animation: scroll-left 60s linear infinite;
+            animation: scroll-left 50s linear infinite;
         }
         @keyframes scroll-left {
             0% { transform: translateX(100%); }
@@ -183,7 +183,7 @@
 
         <!-- ROW 1 -->
 
-        <!-- 1. HERO (2x2) - UPDATED TEXT -->
+        <!-- 1. HERO (2x2) -->
         <header class="bento-card col-span-2 md:row-span-2 p-8 md:p-10 justify-between bg-slate-900 text-white border-none relative overflow-hidden group" style="background-image: url('https://images.unsplash.com/photo-1614935151651-0bea6508db6b?q=80&w=2025&auto=format&fit=crop'); background-size: cover; background-position: center;">
             <div class="absolute inset-0 bg-slate-900/90 transition-colors group-hover:bg-slate-900/85 z-0"></div>
             <div class="absolute inset-0 grid-pattern opacity-20 z-0"></div>
@@ -215,7 +215,6 @@
                 </span>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                <!-- Focus 1 -->
                 <div class="border-l-2 border-emerald-100 pl-4">
                     <div class="flex items-center gap-2 mb-2">
                         <i class="fab fa-r-project text-emerald-600 text-base md:text-lg"></i>
@@ -225,7 +224,6 @@
                         Refining <strong>OptSurvCutR</strong> for precision biomarker discovery in clinical datasets.
                     </p>
                 </div>
-                <!-- Focus 2 -->
                 <div class="border-l-2 border-emerald-100 pl-4">
                     <div class="flex items-center gap-2 mb-2">
                         <i class="fas fa-user-md text-emerald-600 text-base md:text-lg"></i>
@@ -240,9 +238,9 @@
 
         <!-- ROW 2 -->
 
-        <!-- 3. QUANTITATIVE (1x1) -->
+        <!-- 3. QUANTITATIVE (1x1) - UNIFIED CONSISTENT STYLE -->
         <section class="bento-card col-span-1 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
-            <div class="h-40 md:h-full overflow-y-auto md:overflow-visible pr-1 flex flex-col justify-between">
+            <div class="flex flex-col h-full justify-between">
                 <div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600"><i class="fas fa-terminal text-xl"></i></div>
