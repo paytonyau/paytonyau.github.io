@@ -141,6 +141,13 @@
             0% { transform: translateX(100%); }
             100% { transform: translateX(-100%); }
         }
+        .book-cover {
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+            transition: transform 0.3s ease;
+        }
+        .bento-card:hover .book-cover {
+            transform: scale(1.08) rotate(-2deg);
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans">
@@ -217,7 +224,7 @@
             </div>
         </section>
 
-        <!-- 3. MOLECULAR OPERATIONS (NEW CARD) -->
+        <!-- 3. MOLECULAR OPERATIONS -->
         <section class="bento-card col-span-1 row-span-2 p-8 bg-white group border-t-4 border-t-accent-bio hover:border-teal-400">
             <div class="flex justify-between items-start mb-6">
                 <div class="w-14 h-14 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 transition-transform group-hover:scale-110"><i class="fas fa-microscope text-2xl"></i></div>
@@ -309,15 +316,33 @@
             </div>
         </section>
 
-        <!-- 9. THE LIBRARY -->
+        <!-- 9. RECENT FOCUS -->
+        <section class="bento-card col-span-1 row-span-1 p-8 bg-white group border-t-4 border-t-emerald-400">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="font-bold text-xs text-slate-400 uppercase tracking-widest">Recent Focus</h3>
+                <span class="relative flex h-2.5 w-2.5">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                </span>
+            </div>
+            <div class="text-sm font-bold text-slate-800 mb-2 leading-tight">Automated NGS Reporting</div>
+            <p class="text-xs text-slate-600">Developing CI/CD workflows for real-time genomic surveillance data dissemination.</p>
+        </section>
+
+        <!-- 10. THE LIBRARY -->
         <a href="https://www.goodreads.com/user/show/198092012-payton" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 row-span-1 p-8 bg-white group hover:border-purple-400">
             <div class="flex justify-between items-center mb-2">
                 <h3 class="font-bold text-base text-slate-800">Library</h3>
                 <i class="fas fa-book-open text-purple-600 text-sm"></i>
             </div>
-            <p class="text-[10px] uppercase font-bold text-purple-400 mb-1">Current Read</p>
-            <p class="text-sm font-bold text-slate-800 leading-tight">The Psychology of Money</p>
-            <p class="text-[10px] text-slate-500 mt-1">Morgan Housel</p>
+            <div class="flex items-start gap-4 mt-2">
+                <img src="https://m.media-amazon.com/images/I/81gC3mdNi5L._AC_UF894,1000_QL80_.jpg" alt="The Psychology of Money Cover" class="w-16 h-24 object-cover book-cover rounded-sm flex-shrink-0">
+                <div class="flex flex-col">
+                    <p class="text-[11px] uppercase font-bold text-purple-400 mb-0.5">Current Read</p>
+                    <p class="text-xs font-bold text-slate-800 leading-tight">Psychology of Money</p>
+                    <p class="text-[10px] text-slate-500 mt-1">Morgan Housel</p>
+                </div>
+            </div>
         </a>
 
     </main>
