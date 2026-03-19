@@ -14,7 +14,7 @@
     <title>Payton (Tung On) Yau, PhD | Research Scientist</title>
     
     <meta name="description" content="Portfolio of Payton (Tung On) Yau, PhD. Research Scientist bridging Molecular Biology, Genetic Epidemiology, and Open Source Software (OptSurvCutR).">
-    <meta name="keywords" content="Tung On Yau, Payton Yau, Payton Yau PhD, Research Scientist, Genetic Epidemiology, Real-World Evidence, RWE, OptSurvCutR, Genomic Surveillance, One Health">
+    <meta name="keywords" content="Tung On Yau, Payton Yau, Payton Yau PhD, Research Scientist, Genetic Epidemiology, Real-World Evidence, RWE, OptSurvCutR, Genomic Surveillance, One Health, Biostatistics">
     <meta name="author" content="Payton Tung On Yau, PhD">
     <link rel="canonical" href="https://paytonyau.github.io" />
 
@@ -72,6 +72,7 @@
         "Genomic Surveillance",
         "Microbiome Dynamics",
         "Next-Generation Sequencing",
+        "Biostatistics Education",
         "Strategic Management"
       ]
     }
@@ -132,13 +133,6 @@
             z-index: 10;
         }
         
-        .col-span-2 { grid-column: span 2; }
-        
-        @media (min-width: 768px) {
-            .col-span-2 { grid-column: span 2; }
-            .row-span-2 { grid-row: span 2; }
-        }
-
         .tag {
             display: inline-block;
             padding: 0.2rem 0.5rem;
@@ -171,7 +165,7 @@
         <div class="flex items-center gap-3">
             <div class="w-11 h-11 rounded-lg overflow-hidden shadow-lg bg-slate-800 flex items-center justify-center text-white font-bold text-xl relative">
                 <span class="absolute inset-0 flex items-center justify-center">P</span>
-                <img src="profile.jpg" alt="Payton Tung On Yau, PhD" 
+                <img src="https://paytonyau.github.io/profile.jpg" alt="Payton Tung On Yau, PhD" 
                      class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500" 
                      onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
                      onerror="this.style.display='none';">
@@ -190,7 +184,8 @@
         </div>
     </nav>
 
-    <main class="max-w-7xl mx-auto bento-grid">
+    <!-- GRID-FLOW-DENSE ADDED: Automatically packs smaller boxes into gaps! -->
+    <main class="max-w-7xl mx-auto bento-grid grid-flow-dense">
 
         <!-- HERO -->
         <header class="bento-card col-span-2 md:row-span-2 p-6 md:p-10 justify-between bg-slate-900 text-white border-none relative overflow-hidden group" style="background-image: url('https://images.unsplash.com/photo-1614935151651-0bea6508db6b?q=80&w=2025&auto=format&fit=crop'); background-size: cover; background-position: center;">
@@ -270,8 +265,8 @@
             </div>
         </a>
 
-        <!-- LABS -->
-        <section class="bento-card col-span-1 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
+        <!-- LABS (Now spanning 2 rows to anchor the left side) -->
+        <section class="bento-card col-span-1 md:row-span-2 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
             <div class="flex flex-col h-full justify-between">
                 <div>
                     <div class="flex justify-between items-start mb-4">
@@ -281,23 +276,23 @@
                             <span class="text-xs md:text-sm font-mono text-slate-500">R / Python / NGS</span>
                         </div>
                     </div>
-                    <h3 class="text-base md:text-lg font-bold mb-2 text-slate-900">Computational Genomics</h3>
-                    <div class="space-y-3 mb-3">
+                    <h3 class="text-base md:text-lg font-bold mb-4 text-slate-900">Computational Genomics</h3>
+                    <div class="space-y-4 mb-3">
                          <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-capsules text-blue-500 mt-0.5"></i> 
+                            <i class="fas fa-capsules text-blue-500 mt-1"></i> 
                             <span><strong>AML Therapeutics:</strong> Integrated NanoString & RNA-Seq to validate Tipifarnib MOA.</span>
                         </div>
                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-apple-alt text-blue-500 mt-0.5"></i> 
-                            <span><strong>Bramley Genome:</strong> <em>De novo</em> assembly of the heritage Bramley cultivar using Oxford Nanopore sequencing.</span>
+                            <i class="fas fa-apple-alt text-blue-500 mt-1"></i> 
+                            <span><strong>Bramley Genome:</strong> <em>De novo</em> assembly of the heritage cultivar using Nanopore sequencing.</span>
                         </div>
                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-code-branch text-blue-500 mt-0.5"></i> 
+                            <i class="fas fa-code-branch text-blue-500 mt-1"></i> 
                             <span><strong>IBD Transcriptomics:</strong> Defined gene signatures for mucosal healing.</span>
                         </div>
                     </div>
                 </div>
-                <div class="flex gap-3 text-lg text-slate-400 mt-2 border-t border-slate-200 pt-2">
+                <div class="flex gap-4 text-xl text-slate-400 mt-4 border-t border-slate-200 pt-4">
                     <i class="fab fa-r-project hover:text-blue-500 transition-colors" title="R"></i>
                     <i class="fab fa-python hover:text-blue-500 transition-colors" title="Python"></i>
                     <i class="fab fa-linux hover:text-slate-700 transition-colors" title="Linux"></i>
@@ -306,7 +301,8 @@
             </div>
         </section>
 
-        <section class="bento-card col-span-1 md:row-span-1 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-bio shadow-sm">
+        <!-- LABS (Now spanning 2 rows to anchor the left side) -->
+        <section class="bento-card col-span-1 md:row-span-2 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-bio shadow-sm">
             <div class="flex flex-col h-full justify-between">
                 <div>
                     <div class="flex justify-between items-start mb-4">
@@ -316,18 +312,18 @@
                             <span class="text-xs md:text-sm font-mono text-slate-500">Biobanking / Diagnostics</span>
                         </div>
                     </div>
-                    <h3 class="text-base md:text-lg font-bold mb-2 text-slate-900">Molecular Epidemiology</h3>
-                    <div class="space-y-3 mb-3">
+                    <h3 class="text-base md:text-lg font-bold mb-4 text-slate-900">Molecular Epidemiology</h3>
+                    <div class="space-y-4 mb-3">
                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-virus text-teal-500 mt-0.5"></i> 
+                            <i class="fas fa-virus text-teal-500 mt-1"></i> 
                             <span><strong>Viral Oncology:</strong> Epigenetic profiling of EBV-associated Gastric Cancer.</span>
                         </div>
                          <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-dna text-teal-500 mt-0.5"></i> 
+                            <i class="fas fa-dna text-teal-500 mt-1"></i> 
                             <span><strong>CRC Diagnostics:</strong> Multiplex PCR assays for miRNA & microbial screening.</span>
                         </div>
                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
-                            <i class="fas fa-bacterium text-teal-500 mt-0.5"></i> 
+                            <i class="fas fa-bacterium text-teal-500 mt-1"></i> 
                             <span><strong>Pathogenesis:</strong> Longitudinal tracking of <em>C. difficile</em> in IBD cohorts.</span>
                         </div>
                     </div>
@@ -335,22 +331,29 @@
             </div>
         </section>
 
-        <!-- ONE HEALTH (UPDATED: Focused on Hybrid Environment-to-Medicine Link) -->
-        <section class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
+        <!-- TEXTBOOK (SWAPPED: NOW AT THE TOP) -->
+        <a href="https://paytonyau.github.io/biostats-book" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-6 md:p-8 bg-slate-900 text-white group relative overflow-hidden transition-transform hover:-translate-y-1 border-none">
             <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
-                 style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
+                 style="background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
             </div>
-            <div class="absolute inset-0 bg-teal-900/80 z-10 transition-opacity group-hover:bg-teal-900/70"></div>
-            <div class="relative z-20 flex flex-col justify-start h-full text-white">
-                <h3 class="text-2xl md:text-3xl font-bold mb-2 tracking-tight">One Health: Environment to Medicine</h3>
-                <p class="text-sm md:text-lg text-teal-50 leading-relaxed font-medium max-w-2xl">
-                    Integrating genomic data from environmental reservoirs and clinical settings. I apply a hybrid wet-dry lens to track emerging pathogens, bridging the communication gap between ecological research and medical diagnostics.
+            <div class="absolute inset-0 bg-indigo-900/90 z-10 transition-opacity group-hover:bg-indigo-900/80"></div>
+            
+            <div class="relative z-20 flex flex-col justify-center h-full">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 bg-indigo-500 rounded-xl flex items-center justify-center shadow-lg"><i class="fas fa-book-medical text-white text-lg"></i></div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white leading-tight">Biostatistics Textbook</h3>
+                        <p class="text-[10px] md:text-xs text-indigo-300 font-mono uppercase tracking-widest mt-0.5">Open Educational Resource</p>
+                    </div>
+                </div>
+                <p class="text-sm md:text-base text-slate-200 leading-relaxed font-medium max-w-2xl">
+                    Co-Author of <strong>"A Little Bit of Everything in Biostatistics"</strong>. An applied open-access Jupyter Book for health science students, featuring the Framingham Heart Study & Anorexia Clinical Trial datasets.
                 </p>
             </div>
-        </section>
+        </a>
 
         <!-- MICROBIOME -->
-        <a href="https://www.agmicrobiomebase.org/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-8 bg-slate-50 border-dashed border-2 border-slate-300 hover:border-teal-400 group flex flex-row items-center justify-between transition-all">
+        <a href="https://www.agmicrobiomebase.org/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-6 md:p-8 bg-slate-50 border-dashed border-2 border-slate-300 hover:border-teal-400 group flex flex-row items-center justify-between transition-all">
             <div class="flex-grow">
                 <div class="flex items-center gap-2 mb-1">
                     <i class="fas fa-leaf text-teal-600"></i>
@@ -416,7 +419,7 @@
             </div>
         </a>
 
-        <!-- PEDAGOGY (UPDATED: Restored 'Connection & Application', Focus on Mentorship/Soft Skills) -->
+        <!-- PEDAGOGY -->
         <section class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
             <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
                  style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
@@ -445,8 +448,8 @@
             </div>
         </section>
 
-        <!-- SPEAKER (PROMOTED TO COL-SPAN-2, REPLACING R&D STRATEGY) -->
-         <a href="https://fosdem.org/2026/schedule/speaker/payton_yau/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-8 overflow-hidden group relative bg-slate-800 border-none">
+        <!-- SPEAKER -->
+        <a href="https://fosdem.org/2026/schedule/speaker/payton_yau/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-8 overflow-hidden group relative bg-slate-800 border-none">
              <div class="absolute inset-0 bg-gradient-to-br from-blue-900 to-slate-900"></div>
              <div class="absolute inset-0 opacity-20" style="background-image: url('https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;"></div>
              
@@ -469,14 +472,31 @@
             </div>
         </a>
 
-        <!-- THE HYBRID BRIDGE (UPDATED TEXT) -->
-        <div class="bento-card col-span-2 p-6 bg-slate-900 text-white group hover:border-slate-700 flex flex-col justify-center">
-            <div class="flex justify-between items-start mb-3">
-                <h3 class="font-bold text-base md:text-lg text-amber-500 leading-tight">The Hybrid Bridge</h3>
-                <i class="fas fa-exchange-alt text-amber-500 text-2xl group-hover:rotate-12 transition-transform duration-500"></i>
+        <!-- ONE HEALTH (SWAPPED: NOW AT THE BOTTOM, TEXT REVISED) -->
+        <section class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
+            <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
+                 style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
             </div>
-            <blockquote class="text-base md:text-lg text-slate-200 leading-relaxed font-medium italic border-l-4 border-amber-500 pl-6 py-2">
-                "True innovation happens at the intersection. I execute both <strong>Wet Lab</strong> biology and <strong>Dry Lab</strong> computation, connecting environmental surveillance with clinical medicine to drive reproducible science."
+            <div class="absolute inset-0 bg-teal-900/85 z-10 transition-opacity group-hover:bg-teal-900/75"></div>
+            <div class="relative z-20 flex flex-col justify-between h-full text-white">
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-12 h-12 bg-teal-500/30 rounded-xl flex items-center justify-center text-teal-300 backdrop-blur-md border border-teal-400/20"><i class="fas fa-globe-americas text-2xl"></i></div>
+                    <h3 class="text-2xl md:text-3xl font-bold tracking-tight leading-tight">One Health Dynamics</h3>
+                </div>
+                <p class="text-base md:text-lg text-teal-50 leading-relaxed font-medium max-w-xl">
+                    Tracking antimicrobial resistance (AMR) and priority pathogens across the biosphere. My research connects agricultural microbiomes to human epidemiology, mapping how infectious diseases evolve and spill over.
+                </p>
+            </div>
+        </section>
+
+        <!-- THE HYBRID BRIDGE (COMPACT COL-SPAN-2) -->
+        <div class="bento-card col-span-2 p-8 bg-slate-900 text-white group hover:border-slate-700 flex flex-col justify-center">
+            <div class="flex items-center gap-3 mb-5">
+                <i class="fas fa-exchange-alt text-amber-500 text-3xl group-hover:rotate-12 transition-transform duration-500"></i>
+                <h3 class="font-bold text-2xl md:text-3xl text-amber-500 leading-tight">The Hybrid Bridge</h3>
+            </div>
+            <blockquote class="text-base md:text-lg text-slate-300 leading-relaxed font-medium italic border-l-4 border-amber-500 pl-5 py-2">
+                "True innovation happens at the intersection. By executing both <strong class="text-white">wet-lab molecular biology</strong> and <strong class="text-white">dry-lab computational pipelines</strong>, I translate raw genomic data into clinically actionable, reproducible insights."
             </blockquote>
         </div>
 
@@ -492,5 +512,3 @@
     </footer>
 </body>
 </html>
-
-
