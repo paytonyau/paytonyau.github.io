@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google Site Verification (SEO Ownership Only) -->
     <meta name="google-site-verification" content="k02-MDeKiaYFzFxk0W66oqiN1SlTjFHj4zTdGH17IPM" />
     <link rel="icon" type="image/jpeg" href="profile.jpg">
     
@@ -14,7 +13,6 @@
     <meta name="author" content="Payton Tung On Yau, PhD">
     <link rel="canonical" href="https://paytonyau.github.io" />
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://paytonyau.github.io">
     <meta property="og:title" content="Payton (Tung On) Yau, PhD | Research Scientist">
@@ -24,6 +22,49 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Payton Yau",
+      "givenName": "Payton",
+      "additionalName": "Tung On",
+      "familyName": "Yau",
+      "alternateName": ["Tung On Yau", "Payton Tung On Yau"],
+      "honorificSuffix": "PhD",
+      "jobTitle": "Research Scientist", 
+      "url": "https://paytonyau.github.io",
+      "image": "https://paytonyau.github.io/profile.jpg",
+      "email": "payton.yau@ntu.ac.uk",
+      "sameAs": [
+        "https://www.linkedin.com/in/tungon/",
+        "https://github.com/paytonyau",
+        "https://medium.com/@paytonyau",
+        "https://orcid.org/0000-0002-6019-3837",
+        "https://scholar.google.com/citations?user=kTp4x-0AAAAJ&hl",
+        "https://www.researchgate.net/profile/Payton-Yau"
+      ],
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Nottingham Trent University" },
+        { "@type": "CollegeOrUniversity", "name": "University of the People" }
+      ],
+      "worksFor": [
+        { "@type": "Organization", "name": "LSST" },
+        { "@type": "Organization", "name": "Nottingham Trent University" }
+      ],
+      "knowsAbout": [
+        "Genetic Epidemiology",
+        "Real-World Evidence",
+        "Molecular Biology",
+        "Quantitative Genomics",
+        "Genomic Surveillance",
+        "Microbiome Dynamics",
+        "Next-Generation Sequencing",
+        "Biostatistics Education"
+      ]
+    }
+    </script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -87,13 +128,13 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-    <!-- Top Bar -->
     <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 px-6 py-4 flex justify-between items-center shadow-sm">
         <div class="max-w-6xl mx-auto w-full flex justify-between items-center">
             <div class="flex items-center gap-3">
                 <div class="w-11 h-11 rounded-lg overflow-hidden shadow-md bg-slate-800 flex items-center justify-center text-white font-bold text-xl relative">
                     <span class="absolute inset-0 flex items-center justify-center">P</span>
-                    <img src="https://paytonyau.github.io/profile.jpg" alt="Payton Tung On Yau, PhD" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="https://paytonyau.github.io/profile.jpg" alt="Payton Tung On Yau, PhD" 
+                         class="absolute inset-0 w-full h-full object-cover" onerror="this.style.display='none';">
                 </div>
                 <div>
                     <h1 class="font-bold text-slate-900 leading-tight text-lg">Payton Yau, PhD</h1>
@@ -109,12 +150,8 @@
         </div>
     </nav>
 
-    <!-- CENTERED BENTO GRID CONTAINER -->
     <main class="max-w-6xl mx-auto px-4 md:px-8 bento-grid grid-flow-dense">
 
-        <!-- ================= SECTION 1: CORE LABORATORY & PLATFORM RESEARCH ================= -->
-
-        <!-- HERO -->
         <header class="bento-card col-span-2 md:row-span-2 p-6 md:p-10 justify-between bg-slate-900 text-white border-none relative overflow-hidden group" style="background-image: url('https://images.unsplash.com/photo-1614935151651-0bea6508db6b?q=80&w=2025&auto=format&fit=crop'); background-size: cover; background-position: center;">
             <div class="absolute inset-0 bg-slate-900/90 transition-colors group-hover:bg-slate-900/85 z-0"></div>
             <div class="absolute inset-0 grid-pattern opacity-20 z-0"></div>
@@ -128,110 +165,143 @@
                     Payton Tung On Yau, PhD
                 </h2>
                 <p class="text-sm md:text-xl text-slate-300 max-w-2xl leading-relaxed mt-6 mb-6">
-                    <strong>Bridging Molecular Discovery and Computational Execution.</strong> I am a wet-lab trained Molecular Biologist leveraging data workflows to scale research intuition. My background spans bench-side assay configurations, biochemistry, and structural pipelines to ensure digital assets reflect accurate biological reality.
+                    <strong>Bridging Molecular Discovery and Computational Execution.</strong> I am a wet-lab trained Molecular Biologist leveraging advanced data power to validate and scale research intuition. My background spans bench-side assay configurations, biochemistry, and structural pipelines to ensure computational assets accurately reflect biological reality.
                 </p>
             </div>
-            <div class="absolute bottom-6 left-6 md:left-10 z-10 flex gap-3 flex-wrap">
-                <a href="mailto:payton.yau@ntu.ac.uk?subject=Professional%20Inquiry" class="px-5 py-2.5 bg-white text-slate-900 font-bold rounded-lg hover:bg-slate-100 transition-colors text-xs md:text-base shadow-lg">Get in Touch</a>
+            <div class="absolute bottom-4 right-6 md:right-10 z-10 flex gap-3 flex-wrap">
+                <a href="mailto:payton.yau@ntu.ac.uk?subject=Professional%20Inquiry%20from%20Portfolio" class="px-5 py-2.5 bg-white text-slate-900 font-bold rounded-lg hover:bg-slate-100 transition-colors text-xs md:text-base shadow-lg">Get in Touch</a>
                 <a href="https://www.linkedin.com/in/tungon/" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-slate-800 text-white font-semibold rounded-lg hover:bg-slate-700 transition-colors border border-slate-700 text-xs md:text-base shadow-lg">LinkedIn</a>
             </div>
         </header>
 
-        <!-- LABS (Dry Lab) -->
-        <section class="bento-card col-span-1 md:row-span-2 p-6 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
+        <section class="bento-card col-span-1 md:row-span-2 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-tech shadow-sm">
             <div class="flex flex-col h-full justify-between">
                 <div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600"><i class="fas fa-laptop-code text-xl"></i></div>
-                        <span class="text-xs font-mono text-slate-500">R / Python / NGS</span>
+                        <div class="text-right">
+                            <span class="block text-xs md:text-sm font-bold uppercase tracking-widest text-slate-500">Dry Lab</span>
+                            <span class="text-xs md:text-sm font-mono text-slate-500">R / Python / NGS</span>
+                        </div>
                     </div>
-                    <h3 class="text-base font-bold mb-4 text-slate-900">Computational Genomics</h3>
-                    <div class="space-y-4 text-xs text-slate-600 font-medium">
-                        <div><strong>AML Therapeutics:</strong> Integrated NanoString & RNA-Seq profiling pipelines.</div>
-                        <div><strong>Bramley Genome:</strong> <em>De novo</em> Nanopore cultivar sequence assembly.</div>
-                        <div><strong>IBD Transcriptomics:</strong> Gene expression markers for mucosal healing.</div>
+                    <h3 class="text-base md:text-lg font-bold mb-4 text-slate-900">Computational Genomics</h3>
+                    <div class="space-y-4 mb-3">
+                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-capsules text-blue-500 mt-1"></i> 
+                            <span><strong>AML Therapeutics:</strong> Integrated NanoString & RNA-Seq to validate Tipifarnib MOA.</span>
+                        </div>
+                        <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-apple-alt text-blue-500 mt-1"></i> 
+                            <span><strong>Bramley Genome:</strong> <em>De novo</em> assembly of the heritage cultivar using Nanopore sequencing.</span>
+                        </div>
+                        <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-code-branch text-blue-500 mt-1"></i> 
+                            <span><strong>IBD Transcriptomics:</strong> Defined gene signatures for mucosal healing.</span>
+                        </div>
                     </div>
+                </div>
+                <div class="flex gap-4 text-xl text-slate-400 mt-4 border-t border-slate-200 pt-4">
+                    <i class="fab fa-r-project hover:text-blue-500 transition-colors" title="R"></i>
+                    <i class="fab fa-python hover:text-blue-500 transition-colors" title="Python"></i>
+                    <i class="fab fa-linux hover:text-slate-700 transition-colors" title="Linux"></i>
+                    <i class="fab fa-git-alt hover:text-orange-600 transition-colors" title="Git"></i>
                 </div>
             </div>
         </section>
 
-        <!-- RECENT FOCUS -->
-        <section class="bento-card col-span-2 p-6 bg-white group border-t-4 border-t-emerald-400 shadow-sm">
-            <div class="flex justify-between items-center mb-4">
+        <section class="bento-card col-span-2 p-6 md:p-8 bg-white group border-t-4 border-t-emerald-400 shadow-sm">
+            <div class="flex justify-between items-center mb-6">
                 <h3 class="font-bold text-xs md:text-sm text-slate-500 uppercase tracking-widest">Recent Focus</h3>
-                <span class="relative flex h-3 w-3"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span></span>
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                </span>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <a href="https://www.frontiersin.org/research-topics/78448/artificial-intelligence-for-precision-gut-microbiome-modulation-in-cancer-therapies" target="_blank" rel="noopener noreferrer" class="block border-l-2 border-emerald-100 pl-4 hover:border-emerald-400 transition-colors group/link flex flex-col justify-between">
-                    <div>
-                        <div class="flex items-center justify-between">
-                            <h4 class="text-sm font-bold text-slate-900 group-hover/link:text-emerald-700">Frontiers in Microbiome</h4>
-                            <i class="fas fa-arrow-up-right-from-square text-slate-300 text-xs mt-0.5"></i>
-                        </div>
-                        <p class="text-xs text-slate-500 mt-1">
-                            Topic Editor directing AI precision gut microbiome modulation manuscripts within <em>Frontiers in Cellular and Infection Microbiology</em>.
-                        </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+                <a href="https://www.frontiersin.org/research-topics/78448/artificial-intelligence-for-precision-gut-microbiome-modulation-in-cancer-therapies" target="_blank" rel="noopener noreferrer" class="block border-l-2 border-emerald-100 pl-4 hover:border-emerald-400 transition-colors group/link">
+                    <div class="flex items-center gap-2 mb-2">
+                        <i class="fab fa-r-project text-emerald-600 text-lg md:text-xl"></i>
+                        <h3 class="text-base md:text-lg font-bold text-slate-900 group-hover/link:text-emerald-700 transition-colors">AI Topic Editor</h3>
                     </div>
+                    <p class="text-sm md:text-base text-slate-600 leading-relaxed font-medium">
+                        AI precision gut microbiome modulation manuscripts within <strong>Frontiers in Microbiome</strong>.
+                    </p>
                 </a>
                 <a href="https://medium.com/@paytonyau/list/the-24-decoding-the-bacterial-priority-pathogens-064747753b4c" target="_blank" rel="noopener noreferrer" class="block border-l-2 border-emerald-100 pl-4 hover:border-emerald-400 transition-colors group/link">
-                    <h4 class="text-sm font-bold text-slate-900 group-hover/link:text-emerald-700">The Resistance Archives</h4>
-                    <p class="text-xs text-slate-500 mt-1">Blog series decoding the biology and pathways of the WHO Top 24 Superbugs.</p>
+                    <div class="flex items-center gap-2 mb-2">
+                        <i class="fab fa-medium text-emerald-600 text-lg md:text-xl"></i>
+                        <h3 class="text-base md:text-lg font-bold text-slate-900 group-hover/link:text-emerald-700 transition-colors">The Resistance Archives</h3>
+                    </div>
+                    <p class="text-sm md:text-base text-slate-600 leading-relaxed font-medium">
+                        Writing a comprehensive blog series decoding the WHO Top 24 Superbugs. <strong>From Pipettes to R Packages.</strong>
+                    </p>
                 </a>
             </div>
         </section>
 
-        <!-- LABS (Wet Lab) -->
-        <section class="bento-card col-span-1 md:row-span-2 p-6 bg-slate-50/30 group border-t-4 border-t-accent-bio shadow-sm">
+        <section class="bento-card col-span-1 md:row-span-2 p-6 md:p-8 bg-slate-50/30 group border-t-4 border-t-accent-bio shadow-sm">
             <div class="flex flex-col h-full justify-between">
                 <div>
                     <div class="flex justify-between items-start mb-4">
                         <div class="w-10 h-10 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600"><i class="fas fa-vial text-xl"></i></div>
-                        <span class="text-xs font-mono text-slate-500">Assays / Culture / QC</span>
+                        <div class="text-right">
+                            <span class="block text-xs md:text-sm font-bold uppercase tracking-widest text-slate-500">Bench Science</span>
+                            <span class="text-xs md:text-sm font-mono text-slate-500">Assays / Culture / QC</span>
+                        </div>
                     </div>
-                    <h3 class="text-base font-bold mb-4 text-slate-900">Molecular & Wet Lab</h3>
-                    <div class="space-y-4 text-xs text-slate-600 font-medium">
-                        <div><strong>Viral Oncology:</strong> Epigenetic profiling and target validation assays.</div>
-                        <div><strong>CRC Diagnostics:</strong> Multiplex qPCR miRNA screening configurations.</div>
-                        <div><strong>Pathogenesis:</strong> Longitudinal isolation of targeted cohort cultures.</div>
+                    <h3 class="text-base md:text-lg font-bold mb-4 text-slate-900">Molecular & Wet Lab</h3>
+                    <div class="space-y-4 mb-3">
+                        <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-virus text-teal-500 mt-1"></i> 
+                            <span><strong>Viral Oncology:</strong> Epigenetic profiling parameters and target validation assays.</span>
+                        </div>
+                         <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-dna text-teal-500 mt-1"></i> 
+                            <span><strong>CRC Diagnostics:</strong> Designing multiplex qPCR assays for miRNA screening configurations.</span>
+                        </div>
+                        <div class="flex items-start gap-2 text-xs md:text-sm text-slate-600 font-medium">
+                            <i class="fas fa-bacterium text-teal-500 mt-1"></i> 
+                            <span><strong>Pathogenesis:</strong> Isolation and longitudinal profiling of targeted cohort cultures.</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- DE MONTFORT UNIVERSITY COLLABORATION CARD -->
-        <section class="bento-card col-span-2 p-6 relative overflow-hidden group border-none">
+
+        <section class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
             <div class="absolute inset-0 bg-gradient-to-br from-blue-950 to-slate-900 z-0"></div>
             <div class="relative z-20 h-full flex flex-col justify-between text-white">
                  <div>
                      <div class="flex items-center gap-2 mb-2">
-                        <span class="inline-block px-2 py-0.5 bg-slate-700 text-[10px] font-bold uppercase rounded text-slate-200">External Collaboration</span>
-                        <span class="text-xs text-slate-400 font-mono">De Montfort University</span>
+                        <div class="inline-block px-3 py-1 bg-slate-700 text-xs font-bold uppercase tracking-wide rounded shadow-sm text-white">External Collaboration</div>
+                        <span class="text-s text-slate-400 font-mono">De Montfort University</span>
                      </div>
-                     <h3 class="text-lg font-bold text-white leading-tight">Biofilm Dynamics & Commercial Wash Optimization</h3>
-                     <p class="text-xs text-slate-300 leading-relaxed mt-2">
-                        Collaborating with the DMU team to map microbiome kill-rates within professional laundering systems. Merging practical lab assays with custom computing parameters to **reduce chemical dependencies and commercial utility costs** without losing sanitization efficacy.
+                     <h3 class="text-xl md:text-2xl font-bold mb-2 text-white leading-tight">Biofilm Dynamics & Commercial Wash Optimisation</h3>
+                     <p class="text-sm md:text-base text-slate-300 leading-relaxed max-w-3xl">
+                        Collaborating alongside the DMU research team to evaluate microbiome profiling and bacterial kill-rates within professional laundering systems. Contributing computational and assay analytics designed to systematically reduce chemical dependencies and commercial utility costs while preserving rigorous biocidal parameters.
                      </p>
                  </div>
             </div>
         </section>
 
-        <!-- LIBRARY (RESTORED THUMBNAIL COVERS) -->
-        <a href="https://www.goodreads.com/user/show/198092012-payton" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 p-6 bg-white group hover:border-purple-400 shadow-sm flex flex-col justify-between h-full">
-            <div class="flex justify-between items-center w-full">
-                <h3 class="font-bold text-xs text-slate-500 uppercase tracking-widest">Library</h3>
-                <i class="fas fa-arrow-up-right-from-square text-purple-600 text-xs"></i>
+        <a href="https://www.agmicrobiomebase.org/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 p-6 bg-white border-dashed border-2 border-slate-300 hover:border-teal-400 group flex flex-col justify-between transition-all">
+            <div class="flex flex-col gap-1">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-leaf text-teal-600"></i>
+                        <h3 class="font-bold text-[11px] text-slate-500 uppercase tracking-widest">Resource Platform</h3>
+                    </div>
+                    <i class="fas fa-external-link-alt text-[10px] text-slate-300 group-hover:text-slate-600 transition-colors"></i>
+                </div>
+                <h3 class="font-bold text-slate-800 text-s leading-tight mt-1">UK Crop Microbiome CryoBank</h3>
+                <p class="text-s text-slate-500 mt-2 font-medium">
+                    Managed systems architectures securing national database repositories for UKRI/BBSRC phytobiome isolates.
+                </p>
             </div>
-            <div class="flex-grow flex items-center justify-center py-2">
-                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg" alt="The Psychology of Money Book Cover" class="h-32 w-auto object-cover book-cover rounded-sm shadow-md">
-            </div>
-            <div class="text-center w-full">
-                <p class="text-[10px] uppercase font-bold text-purple-400 mb-0.5 tracking-wider">Current Read</p>
-                <p class="text-sm font-bold text-slate-900 leading-tight">The Psychology of Money</p>
-                <p class="text-xs text-slate-500 font-semibold">Morgan Housel</p>
-            </div>
+            <span class="text-[14px] text-slate-400 font-mono mt-3 block font-semibold">Access Base &rarr;</span>
         </a>
 
-        <!-- CONSOLIDATED SOFTWARE SUITE BLOCK -->
         <a href="https://paytonyau.github.io/OptSurvCutR/" target="_blank" class="bento-card col-span-2 p-6 bg-slate-900 text-white group relative overflow-hidden transition-transform hover:-translate-y-1">
             <div class="absolute top-4 right-4 text-slate-500 group-hover:text-white transition-colors"><i class="fas fa-arrow-up-right-from-square text-sm"></i></div>
             <div class="relative z-10 flex flex-col h-full justify-between">
@@ -240,112 +310,136 @@
                         <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg"><i class="fab fa-r-project text-white text-xl"></i></div>
                         <h3 class="text-lg font-bold text-white">Systems Biology Software Suite</h3>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-300">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-s text-slate-300">
                         <div>
                             <span class="text-blue-400 font-mono font-bold block mb-1">OptSurvCutR [v0.10.0]</span>
-                            Automating biomarker threshold optimization for survival criteria using information metrics (AIC/BIC).
+                            Automating biomarker threshold optimisation for survival criteria using information metrics (AIC/BIC).
                         </div>
                         <div class="border-t md:border-t-0 md:border-l border-slate-800 pt-2 md:pt-0 md:pl-4">
                             <span class="text-teal-400 font-mono font-bold block mb-1">Multi-Level Interactomes</span>
-                            Reconstructing interactome co-expression pathways (**gene-gene / bacteria-bacteria**) derived from single-cell resolutions.
+                            Reconstructing interactome co-expression pathways (<strong> Gene-Gene / Bacteria-Bacteria</strong>) derived from single-cell resolutions.
                         </div>
                     </div>
                 </div>
             </div>
         </a>
 
-        <!-- THE HYBRID BRIDGE -->
-        <div class="bento-card col-span-1 p-5 bg-slate-900 text-white group border-none justify-center">
-            <div class="flex items-center gap-2 mb-1.5">
-                <i class="fas fa-exchange-alt text-amber-500 text-xs"></i>
-                <h4 class="font-bold text-[10px] text-amber-400 uppercase tracking-widest">Core Paradigm</h4>
+
+        <a href="https://www.goodreads.com/user/show/198092012-payton" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 p-6 bg-white group hover:border-purple-400 shadow-sm flex flex-col justify-between h-full">
+            <div class="flex justify-between items-center w-full">
+                <h3 class="font-bold text-xs md:text-sm text-slate-500 uppercase tracking-widest">Library</h3>
+                <i class="fas fa-arrow-up-right-from-square text-purple-400 text-xs"></i>
             </div>
-            <blockquote class="text-[11px] text-slate-300 font-medium italic border-l-2 border-amber-500 pl-3 leading-relaxed">
-                "Data analysis is only as sound as the chemistry behind it. I link bench variables directly to analytical pipelines."
-            </blockquote>
-        </div>
+            <div class="flex-grow flex items-center justify-center py-2">
+                <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg" alt="Book Cover" class="h-32 w-auto object-cover book-cover rounded-sm shadow-md transition-transform duration-300 group-hover:scale(1.05)">
+            </div>
+            <div class="text-center w-full">
+                <p class="text-[10px] md:text-xs uppercase font-bold text-purple-400 mb-0.5 tracking-wider">Current Read</p>
+                <p class="text-sm md:text-base font-bold text-slate-900 leading-tight">The Psychology of Money</p>
+                <p class="text-xs text-slate-500 font-semibold">Morgan Housel</p>
+            </div>
+        </a>
 
-
-        <!-- ================= SECTION 2: ACADEMIC PEDAGOGY & INSTRUCTION ================= -->
-
-        <!-- PEDAGOGY (RESTORED TO BALANCED 2-COLUMN WIDTH STYLE) -->
-        <section class="bento-card col-span-2 p-6 bg-slate-900 text-white border-none relative overflow-hidden">
-            <div class="absolute inset-0 bg-slate-900/95 z-0"></div>
-            <div class="relative z-10 h-full flex flex-col justify-center text-white">
-                <h3 class="font-bold text-xs uppercase tracking-widest text-indigo-300 mb-4"><i class="fas fa-chalkboard-teacher mr-1.5"></i> Academic Pedagogy</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-300">
-                    <div>
-                        <strong class="block text-white text-sm mb-1">NTU / UoPeople / DMU / BNU</strong>
-                        Module Lead across Research Analytics and Global Health frameworks, cross-training multi-disciplinary discovery teams.
+        <section class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
+            <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
+                 style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
+            </div>
+            <div class="absolute inset-0 bg-slate-900/85 z-10 transition-opacity group-hover:bg-slate-900/80"></div>
+            <div class="relative z-20 h-full flex flex-col justify-center text-white">
+                <h3 class="font-bold text-sm md:text-base uppercase tracking-widest text-indigo-300 mb-6 flex items-center gap-2">
+                    <i class="fas fa-chalkboard-teacher"></i> Academic Pedagogy
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full items-start text-left">
+                    <div class="h-full flex flex-col md:border-r border-slate-700 md:pr-4">
+                        <strong class="block text-indigo-300 uppercase tracking-wide text-xs mb-1">Mentorship & Roles</strong>
+                        <span class="block font-bold text-white text-lg mb-2">NTU / UoPeople / DMU / BNU</span>
+                        <span class="text-sm text-slate-300 block leading-relaxed">
+                            Lecturer & Module Lead across Research Methods and Global Health. Mentoring diverse teams to develop the technical skills required for scientific collaboration and effective communication.
+                        </span>
                     </div>
-                    <div class="border-t md:border-t-0 md:border-l border-slate-800 pt-3 md:pt-0 md:pl-6">
-                        <strong class="block text-white text-sm mb-1">Applied Focus</strong>
-                        Moving beyond simple knowledge transfer. Connecting student analysts to real-world industrial challenges.
+                    <div class="h-full flex flex-col md:pl-4">
+                        <strong class="block text-indigo-300 uppercase tracking-wide text-xs mb-1">Philosophy</strong>
+                        <span class="block font-bold text-white text-lg mb-2">Connection & Application</span>
+                        <span class="text-sm text-slate-300 block leading-relaxed">
+                            Moving beyond knowledge transfer. I focus on connecting people to real-world challenges, fostering an environment where critical thinking drives applied solutions.
+                        </span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- EDUCATION -->
-        <div class="bento-card col-span-1 p-5 bg-slate-50/20 border-t-2 border-slate-100 flex flex-col justify-center items-center text-center">
-            <span class="text-xl font-black text-slate-900 leading-none">PhD</span>
-            <p class="text-[10px] font-extrabold uppercase tracking-wide text-indigo-600 mt-1">By Published Works</p>
-            <p class="text-sm text-slate-500 mt-0.5 font-medium italic">Medicine (Diseases Architecture)</p>
-            <div class="w-8 h-px bg-slate-200 my-2"></div>
-            <span class="text-[10px] font-semibold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-100">MBA Candidate</span>
-        </div>
-
-        <!-- TEXTBOOK -->
-        <a href="https://paytonyau.github.io/biostats-book" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-6 bg-gradient-to-r from-indigo-950 to-slate-900 text-white group relative overflow-hidden border-none">
-            <div class="absolute top-4 right-4 text-slate-500 group-hover:text-white transition-colors"><i class="fas fa-arrow-up-right-from-square text-sm"></i></div>
+        <a href="https://paytonyau.github.io/biostats-book" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-6 md:p-8 bg-slate-900 text-white group relative overflow-hidden transition-transform hover:-translate-y-1 border-none">
+            <div class="absolute top-4 right-4 text-slate-400 group-hover:text-white transition-colors z-20"><i class="fas fa-arrow-up-right-from-square text-sm"></i></div>
+            <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
+                 style="background-image: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
+            </div>
+            <div class="absolute inset-0 bg-indigo-900/90 z-10 transition-opacity group-hover:bg-indigo-900/80"></div>
+            
             <div class="relative z-20 flex flex-col justify-center h-full">
-                <h4 class="text-sm font-bold text-white flex items-center gap-2 mb-1">
-                    <i class="fas fa-book-medical text-indigo-400"></i> Biostatistics Open Resource Textbook
-                </h4>
-                <p class="text-xs text-slate-300 leading-relaxed font-medium">
-                    Co-Author of <em>"A Little Bit of Everything in Biostatistics"</em>. An interactive open-access Jupyter Book mapping calculations directly to standard clinical trial data matrices.
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 bg-indigo-500 rounded-xl flex items-center justify-center shadow-lg"><i class="fas fa-book-medical text-white text-lg"></i></div>
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white leading-tight">Biostatistics Textbook</h3>
+                        <p class="text-[10px] md:text-xs text-indigo-300 font-mono uppercase tracking-widest mt-0.5">Open Educational Resource</p>
+                    </div>
+                </div>
+                <p class="text-sm md:text-base text-slate-200 leading-relaxed font-medium max-w-2xl">
+                    Co-Author of <strong>"A Little Bit of Everything in Biostatistics"</strong>. An applied open-access Book for health science students, featuring the Framingham Heart Study & Anorexia Clinical Trial datasets.
                 </p>
             </div>
         </a>
 
-        <!-- ONE HEALTH -->
-        <section class="bento-card col-span-1 p-6 bg-teal-900 text-white relative overflow-hidden border-none group">
-            <div class="absolute inset-0 bg-teal-950/40 z-0"></div>
-            <div class="relative z-10 flex flex-col justify-between h-full">
-                <div class="flex flex-col gap-1">
-                    <div class="flex items-center gap-2">
-                        <i class="fas fa-globe-americas text-teal-300 text-sm"></i>
-                        <h3 class="font-bold text-[11px] text-teal-200 uppercase tracking-widest">Interface Surveillance</h3>
+        <div class="bento-card col-span-1 p-6 bg-slate-900 text-white group flex flex-col justify-between border-none">
+            <div class="relative z-10 flex flex-col h-full justify-between">
+                <div>
+                    <div class="flex items-center gap-2 mb-1">
+                        <i class="fas fa-exchange-alt text-amber-500 text-sm"></i>
+                        <h3 class="font-bold text-[15px] text-amber-500 uppercase tracking-widest">Core Paradigm</h3>
                     </div>
-                    <h3 class="font-bold text-white text-sm leading-tight mt-1">One Health Dynamics</h3>
-                    <p class="text-xs text-teal-100 mt-2 font-medium leading-relaxed">
-                        Tracking environmental antimicrobial resistance (AMR) parameters across geographic vectors to map explicit agricultural-to-human spillover cascades.
-                    </p>
+                    <h3 class="font-bold text-white text-sm leading-tight mt-1">The Hybrid Bridge</h3>
+                    <blockquote class="text-[15px] text-slate-300 font-medium italic border-l-2 border-amber-500 pl-3 py-0.5 mt-2 leading-relaxed">
+                        "Data analysis is only as sound as the chemistry behind it. I directly link bench-side parameters with custom analytical execution pipelines."
+                    </blockquote>
                 </div>
             </div>
-        </section>
+        </div>
 
 
-        <!-- ================= SECTION 3: REPOSITORIES & METRICS AT BASE ================= -->
-
-        <!-- PUBLICATIONS -->
-        <a href="https://scholar.google.com/citations?user=kTp4x-0AAAAJ&hl" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-6 relative overflow-hidden group border-none justify-center">
-             <div class="absolute top-4 right-4 text-slate-400 group-hover:text-white transition-colors z-20"><i class="fas fa-arrow-up-right-from-square text-sm"></i></div>
-             <div class="absolute inset-0 bg-slate-900/90 z-10"></div>
-             <div class="relative z-20 flex flex-col justify-center h-full">
-                <h3 class="text-lg font-bold text-white tracking-tight mb-1">Peer-Reviewed Publications Records</h3>
-                <p class="text-xs text-slate-400 max-w-2xl font-medium">
-                    Surveillance analytics, microbiome changes, and disease pathology literature indexed under author name <strong class="text-slate-200">Tung On Yau</strong>.
-                </p>
+        <a href="https://irep.ntu.ac.uk/id/eprint/49102/" class="bento-card col-span-1 p-6 md:p-8 bg-slate-50/20 border-t-2 border-slate-100 flex flex-col justify-center items-center shadow-sm text-center group hover:bg-slate-50 transition-colors">
+            <div class="w-full flex justify-between items-start text-slate-400 mb-1">
+                <i class="fas fa-graduation-cap text-xl group-hover:text-blue-500 transition-colors"></i>
+                <i class="fas fa-external-link-alt text-[10px] group-hover:text-slate-600 transition-colors"></i>
+            </div>
+            <div class="mb-1">
+                <div class="text-5xl font-black text-slate-900 tracking-tighter leading-tight group-hover:text-blue-900">PhD</div>
+                <p class="text-sm font-extrabold uppercase tracking-widest text-indigo-600 mt-1">By Published Works</p>
+                <p class="text-sm text-slate-500 mt-1 font-medium italic">Medicine (Biological Nature of Diseases)</p>
+            </div>
+            <div class="w-16 h-px bg-slate-300 my-4"></div>
+            <div class="inline-block px-3 py-1 bg-amber-50/50 rounded-full border border-amber-100">
+                <span class="text-sm font-bold text-amber-600 uppercase tracking-tight">MBA Candidate</span>
             </div>
         </a>
 
-        <!-- CRYOBANK REPOSITORY -->
-        <a href="https://www.agmicrobiomebase.org/" target="_blank" rel="noopener noreferrer" class="bento-card col-span-1 p-5 bg-white border-dashed border-2 border-slate-200 hover:border-teal-400 group flex flex-col justify-between transition-all">
-            <div>
-                <span class="text-[10px] text-slate-400 uppercase tracking-wider font-bold block mb-1">UKRI Platform Asset</span>
-                <h3 class="text-xs font-bold text-slate-800">UK Crop Microbiome CryoBank</h3>
-                <p class="text-[11px] text-slate-500 mt-1">Systems design architecture backing national database archives for BBSRC phytobiome isolates.</p>
+        <a href="https://scholar.google.com/citations?user=kTp4x-0AAAAJ&hl" target="_blank" rel="noopener noreferrer" class="bento-card col-span-2 p-8 relative overflow-hidden group border-none">
+             <div class="absolute top-4 right-4 text-slate-400 group-hover:text-white transition-colors z-20"><i class="fas fa-arrow-up-right-from-square text-sm"></i></div>
+             <div class="absolute inset-0 transition-transform duration-700 group-hover:scale-105" 
+                  style="background-image: url('https://images.unsplash.com/photo-1628595351029-c2bf17511435?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center;">
+             </div>
+             <div class="absolute inset-0 bg-slate-900/85 z-10 transition-opacity group-hover:bg-slate-900/75"></div>
+             <div class="relative z-20 flex flex-col justify-center h-full">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="inline-block w-8 h-1 bg-teal-400 rounded-full"></span>
+                    <h3 class="font-bold text-xs md:text-sm text-teal-200 uppercase tracking-widest">Publications</h3>
+                </div>
+                <h3 class="text-2xl md:text-3xl font-bold mb-3 text-white tracking-tight">Research Portfolio</h3>
+                <p class="text-sm md:text-lg text-slate-200 leading-relaxed font-medium mb-5 max-w-2xl">
+                    Peer-reviewed findings focusing on Genomic Surveillance, Microbiomes, and Disease Pathology.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded text-xs font-semibold hover:bg-white/20 transition-colors">Google Scholar</span>
+                    <span class="px-3 py-1 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded text-xs font-semibold hover:bg-white/20 transition-colors">ORCID: 0000-0002-6019-3837</span>
+                </div>
             </div>
         </a>
 
