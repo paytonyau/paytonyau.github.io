@@ -48,7 +48,7 @@ I work at both ends of the discipline — generating data at the bench and build
 <p align="left">
 <a href="https://paytonyau.github.io" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-paytonyau.github.io-blue?style=for-the-badge&logo=github" alt="paytonyau" /></a>
 <a href="https://linkedin.com/in/paytonyau" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-paytonyau-0077B5?style=for-the-badge&logo=linkedin" alt="paytonyau" /></a>
-<a href="https://orcid.org/0000-0002-6019-3837" target="blank"><img align="center" src="https://img.shields.io/badge/ORCID-0000--0002--6019--3837-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="orcid" /></a>
+<a href="https://orcid.org/0000-0002-3283-0370" target="blank"><img align="center" src="https://img.shields.io/badge/ORCID-0000--0002--3283--0370-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="orcid" /></a>
 <a href="https://scholar.google.com/citations?user=kTp4x-0AAAAJ&hl=en" target="blank"><img align="center" src="https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="scholar" /></a>
 <a href="https://medium.com/@paytonyau" target="blank"><img align="center" src="https://img.shields.io/badge/Medium-@paytonyau-black?style=for-the-badge&logo=medium" alt="medium" /></a>
 </p>
